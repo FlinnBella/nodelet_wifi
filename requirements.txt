@@ -1,0 +1,48 @@
+# Raspberry Pi Bluetooth Scraping Server Requirements
+# Install with: pip install -r requirements.txt
+
+# Core Python packages
+
+requests>=2.32.3
+beautifulsoup4>=4.12.3
+lxml>=5.2.2
+
+
+# Bluetooth support
+pybluez2>=0.8.0
+
+# Web scraping enhancements
+
+selenium>=4.21.0
+fake-useragent>=1.5.1
+
+# Data processing
+
+pandas>=2.2.2
+numpy>=1.26.4
+
+# Async support (optional)
+
+aiohttp>=3.9.5
+asyncio-mqtt>=0.16.0
+
+# Security
+
+cryptography>=42.0.5
+bcrypt>=4.1.3
+
+# Logging and monitoring
+
+psutil>=5.9.8
+
+# Database support (optional)
+# sqlite3
+
+# Testing (development only)
+
+pytest>=8.2.2
+pytest-asyncio>=0.23.6
+
+# Documentation (development only)
+
+sphinx>=7.3.7
